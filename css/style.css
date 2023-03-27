@@ -1,0 +1,62 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.rouge{
+    color: red;
+}
+
+.panels{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.panel{
+    height: 100%;
+    flex:1;
+    transition: flex 1s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+   
+}
+.panel:hover{
+    flex:4
+}
+
+.panel>.titreJeu:hover{
+    opacity: 100%;
+}
+
+.lion{
+    background-image: url("../img/overwatch.jpg");
+}
+
+.hands{
+    background-image: url("../img/mario.jpg");
+  
+
+}
+.eye{
+    background-image: url("../img/minecraft.jpg");
+
+}
+.road{
+    background-image: url("../img/fifa.jpg");
+
+}
+
+.titreJeu{
+    color: white;
+    font-size: 4em;
+    font-family: 'Roboto';
+    opacity: 0%;
+    transition: opacity 1s;
+}
