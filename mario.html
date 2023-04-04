@@ -1,12 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Font awesome cdn CSS-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/mario.css" />
+
+		<title>Projet formation</title>
+	</head>
+	<body>
+		<nav class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
+			<div class="container-fluid">
+				<a class="navbar-brand text-uppercase mx-4 py-3 fw-bolder" href="#">Mario</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item pe-4">
+							<a class="nav-link active" aria-current="page" href="#">Accueil</a>
+						</li>
+						<li class="nav-item pe-4">
+							<a class="nav-link" href="#new">jeux</a>
+						</li>
+						<li class="nav-item pe-4">
+							<a class="nav-link" href="#yo">en plus</a>
+						</li>
+						<li class="nav-item pe-4">
+							<a class="nav-link" href="#service">commandes</a>
+						</li>
+						<li class="nav-item pe-4">
+							<input type="button" onclick="window.location.href = 'https://mario.nintendo.com/fr/';" value="plus d'informations" />
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section class="banner d-flex justify-content-center align-items-center pt-5">
+			<div class="container my-5 py-5">
+				<div class="row">
+					<div class="col-md-6"></div>
+					<div class="col-md-6 banner-desc lh-lg">
+						<h1 class="text-capitalize py-3 redressed">
+							Découvrez l'univers de Mario  <br />
+							Et de tous ses amis !
+						</h1>
+		
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="available merriweather py-5">
+			<div class="container">
+				<div class="row">
+					<div class="card mb-3 border-0 rounded-0">
+						<div class="row">
+							<div id='new' class="col-md-6">
+									<img src="img/mairo kart.jpg" alt="photo minecraft" style="width:300px;height:450px;">
+							</div>
+							<div class="col-md-6">
+								<div class="card-body px-0">
+									<h3 class="card-title">mario kart</h3>
+									<p class="card-text">
+										Mario Kart est une série de jeux vidéo de course dans laquelle les personnages 
+										de l'univers Mario s'affrontent sur des circuits.
+										 Les joueurs peuvent utiliser divers power-ups pour gagner un avantage sur leurs adversaires et 
+										 atteindre la ligne d'arrivée en premier.
+									</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="card mb-3 border-0 rounded-0">
+						<div class="row">
+							<div class="col-md-6">
+									<img src="img/mario bros.jpg" alt="photo minecraft" style="width:300px;height:450px;">
+							</div>
+							<div class="col-md-6">
+								<div class="card-body px-0">
+									<h3 class="card-title">mario Bros</h3>
+									<p class="card-text">
+										Le jeu met en scène les frères plombiers Mario et Luigi qui doivent traverser 
+										 des niveaux remplis d'ennemis pour sauver la princesse Toadstool. Le jeu est 
+										 considéré comme un classique des jeux d'arcade et a été adapté 
+										 sur de nombreuses plates-formes depuis sa sortie initiale.
+									</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="card mb-3 border-0 rounded-0">
+						<div class="row">
+							<div class="col-md-6">
+								<img src="img/frere du temps.jpg" alt="photo minecraft" style="width:300px;height:450px;">
+							</div>
+							<div class="col-md-6">
+								<div class="card-body px-0">
+									<h3 class="card-title">mario & luigi les frères du temps</h3>
+									<p class="card-text">
+										Mario et Luigi sont deux frères plombiers. Dans le jeu "Mario & Luigi : Les Frères du Temps", les 
+										frères voyagent à travers le temps pour sauver la princesse Peach et leur propre futur.
+									</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id = 'yo'class="cc-menu merriweather py-5">
+			<div class="container">
+				<div class="row">
+					
+					<div class="card bg-transparent text-center mb-4">
+						<div class="card-header redressed fs-4">
+							<ul class="nav nav-tabs justify-content-center card-header-tabs">
+								<li class="nav-item">
+									<a class="nav-link active" href="#prix">les prix</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-light" href="#newss">nouveautés</a>
+								</li>
+							</ul>
+						</div>
+						<div id="prix" class="card-body text-light">
+							<h5 class="card-title">l'univers de Mario</h5>
+							<p class="card-text">Mario a un univers bien à lui et très vaste, qu'attendez-vous pour l'explorer ?.</p>
+						</div>
+					</div>
+				</div>
+				<div  class="row row-cols-1 row-cols-md-2 g-4">
+					<div class="col">
+						<div class="card">
+							<img src="img/DVD.jfif" alt="photo minecraft" style="width:100px;height:150px;">
+							<div class="card-body">
+								<h5 class="card-title">Mario le film</h5>
+								<p class="card-text">
+									Achetez dès maintenant le fil Mario 19€99 en blu-ray / 17€70 en DVD
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div id='newss' class="col">
+						<div class="card">
+							<img src="img/film.jpg" alt="photo minecraft" style="width:100px;height:150px;">
+							<div class="card-body">
+								<h5 class="card-title">Mario le film</h5>
+								<p class="card-text">
+									Plongez dans le film incroyable de Mario & CE en 4k pour seulement 24€99.
+								</p>
+							</div>
+						</div>
+					</div>
+				
+					<div class="col d-sm-none d-md-block">
+						<div class="card">
+							<img src="img/other bis.jpg" alt="photo minecraft" style="width:100px;height:150px;">
+							<div class="card-body">
+								<h5 class="card-title">Mario sunshine</h5>
+								<p class="card-text">
+									Super Mario Sunshine est un jeu de plateforme développé et publié par Nintendo en 2002
+									 pour la GameCube, dans lequel Mario doit nettoyer l'île Delfino avec l'aide de FLUDD tout
+									  en cherchant à prouver son innocence dans une affaire criminelle.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col d-sm-none d-md-block">
+						<div class="card">
+							<img src="img/other.jpg" alt="photo minecraft" style="width:100px;height:150px;">
+							<div class="card-body">
+								<h5 class="card-title">Mario Kingdom battle</h5>
+								<p class="card-text">
+									Mario + The Lapins Crétins Kingdom Battle est un jeu de tactique au tour par tour développé par Ubisoft pour 
+									la Nintendo Switch, dans lequel les personnages de Mario et ceux des Lapins Crétins se combinent 
+									pour sauver le Royaume Champignon d'un nouvel ennemi.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="order-form py-5">
+			<div class="container">
+				<h2 id='service' class="merriweather text-center text-light mb-4">Passer une commande</h2>
+				<form>
+					<div class="row">
+						<div class="col-md-6 col-sm">
+							<div class="input-group mb-3">
+								<span class="input-group-text"><i class="fas fa-user"></i></span>
+								<input type="text" class="form-control" placeholder="Votre nom complet" />
+							</div>
+							<div class="col-md-6 col-sm">
+								<div class="input-group mb-3">
+									<input type="email" class="form-control" placeholder="Votre adresse email" />
+									<span class="input-group-text"><i class="fas fa-at"></i></span>
+								</div>
+						</div>
+						
+							<div class="input-group mb-3">
+								<input type="number" class="form-control" placeholder="Numéro de téléphone" />
+								<span class="input-group-text"><i class="fas fa-phone"></i></span>
+							</div>
+							<div class="input-group mb-3">
+								<input type="text" class="form-control" placeholder="Adresse zone Ex:. Ekounou, Avenu 52" />
+								<span class="input-group-text"><i class="fas fa-home"></i></span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-group">
+							<span class="input-group-text">Autres informations</span>
+							<textarea class="form-control" aria-label="With textarea"></textarea>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="cc-footer py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 mb-4 col-sm">
+						<h6 class="redressed ps-3 fs-5">notre site</h6>
+						<nav  class="nav flex-column">
+							<a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">ici</a>
+							
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4 col-sm">
+						<h6 class="redressed ps-3 fs-5">Nos Partenaire</h6>
+						<nav class="nav flex-column">
+							<a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">ici</a>
+							
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4 col-sm">
+						<h6 class="redressed ps-3 fs-5">Liens utiles</h6>
+						<nav class="nav flex-column">
+							<a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">ici</a>
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4 col-sm">
+						<h6 class="redressed ps-3 fs-5">Nos Offres</h6>
+						<nav class="nav flex-column">
+							<a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">ici</a>
+						</nav>
+					</div>
+					<div class="col-12 text-center py-4 text-muted">
+						&copy; MARIO
+						<script>
+							document.write(new Date().getFullYear());
+						</script>
+						Copyright
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+	</body>
 </html>
