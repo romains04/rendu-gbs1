@@ -1,12 +1,188 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page overwatch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/overtwatch.css">
 </head>
-<body>
+    <div class="yoo"> 
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">caroussel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#end">réseaux sociaux</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+     
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div id="caroussel" class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/fight2.webp" class="d-block w-100" alt="photo overwatch" style="width:450px;height:450px;">
+            <div style="color: black;" class="carousel-caption d-none d-md-block">
+              <h5>L'équipe overwatch en duel </h5>
+              <p>Voici une photo d'un combat opposant 2 équipes de joeueurs d'overwatch.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Winston.webp" class="d-block w-100" alt="photo overwatch" style="width:450px;height:450px;">
+            <div style="color: black;" class="carousel-caption d-none d-md-block">
+              <h5>Winston</h5>
+              <p>Le commandant Winston, le créateur d'overwatch, celui qui a réunie les troupes.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/all2.jpg" class="d-block w-100" alt="photo overwatch" style="width:450px;height:450px;">
+            <div style="color: black;" class="carousel-caption d-none d-md-block">
+              <h5>Famille</h5>
+              <p>Overwatch est devenue une famille de combattant qui se battent ensemble depuis déjà 7ans !</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> </div>
+     
+    
+      <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+        <a class="navbar-brand" href="#salut">Lire le texte</a>
+      </nav>
+      
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">Histoire et personnages</h4>
+        <p>Overwatch est un jeu de tir en équipe développé et publié par Blizzard Entertainment, sorti en 2016.
+            L'histoire d'Overwatch se déroule dans un futur proche, où un groupe de héros connu sous le nom d'Overwatch a sauvé le monde d'une crise mondiale et a depuis été dissous. Le jeu suit les héros alors qu'ils luttent contre le crime et le chaos dans le monde.
+            Le jeu comporte 32 personnages jouables différents, chacun avec son propre ensemble de compétences et de capacités uniques.</p>
+        <h4 id="scrollspyHeading2">Gameplay</h4>
+        <p>Overwatch est un jeu de tir en équipe où les joueurs sont divisés en deux équipes de six joueurs chacune.
+            Les joueurs peuvent choisir parmi les différents personnages jouables pour composer leur équipe et doivent travailler ensemble pour remplir des objectifs de jeu tels que la capture de points de contrôle ou l'escorte de cargaison.
+            Le jeu comporte quatre modes de jeu principaux : Assaut, Escorte, Contrôle et Hybride.</p>
+        <h4 id="scrollspyHeading3">Compétitif </h4>
+        <p>Overwatch possède un mode de jeu compétitif dans lequel les joueurs sont classés selon leur performance lors de parties compétitives.
+            Les joueurs peuvent gagner ou perdre des points de classement en fonction de leurs résultats et peuvent également gagner des récompenses pour leur classement à la fin de chaque saison compétitive.</p>
+        <h4 id="swip" id="scrollspyHeading4">Événements</h4>
+        <p> Overwatch organise régulièrement des événements spéciaux, tels que des événements saisonniers (Halloween, Noël, Nouvel An Chinois, etc.) qui offrent des skins exclusifs et d'autres récompenses pour les joueurs.
+            Les événements d'Overwatch sont également souvent accompagnés de nouveaux modes de jeu temporaires et de nouveaux personnages jouables.</p>
+        
+        
+        
+        <h4 id="scrollspyHeading5">Esport</h4>
+        <p>Overwatch possède une scène esportive active avec des tournois et des championnats organisés par Blizzard Entertainment et d'autres organisations.
+            L'Overwatch League, créée en 2017, est une ligue professionnelle avec des équipes basées dans des villes du monde entier. </p>
+      </div>
+
+
+    <p id="salut"></p> 
+
+
+    <div class="container-fluid">
+        <div class="row">
+              <div class="card" style="width: 18rem;">
+                <img src="img/warcraft.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">World of warcraft</h5>
+                  <p class="card-text">World of Warcraft est un jeu en ligne massivement multijoueur 
+                    (MMO) où les joueurs explorent un vaste monde virtuel, accomplissent des quêtes, 
+                    combattent des ennemis et interagissent avec d'autres joueurs.</p>
+                  <a href="https://worldofwarcraft.blizzard.com/fr-fr/"  rel="nofollow" target="_blank" class="btn btn-primary">voir le site </a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/heartstone.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Heartstone</h5>
+                  <p class="card-text">Hearthstone est un jeu de cartes en ligne gratuit basé 
+                    sur l'univers de Warcraft, où les joueurs s'affrontent en utilisant des decks
+                     personnalisés composés de cartes de sorts et de créatures.</p>
+                  <a href="https://hearthstone.blizzard.com/fr-fr"  rel="nofollow" target="_blank" class="btn btn-primary">voir le site </a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/warcraft2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Warcraft</h5>
+                  <p class="card-text">Warcraft est une série de jeux de stratégie en 
+                    temps réel qui se déroulent dans un monde de fantaisie épique, où 
+                    les joueurs construisent des bases, collectent des ressources et entraînent
+                     des unités pour combattre des ennemis.</p>
+                  <a href="https://worldofwarcraft.blizzard.com/fr-fr/"  rel="nofollow" target="_blank" class="btn btn-primary">voir le site </a>
+                </div>
+              </div>
+        </div>
+    
+        </div>
+
+
+
+
+
+    <div id="end" class="social-medias">
+
+      
+        <i class="fa-brands fa-facebook fa-3x"></i>
+      </a>
+      
+        <i class="fa-brands fa-twitter fa-3x"></i>
+      </a>
+      
+        <i class="fa-brands fa-instagram fa-3x"></i>
+      </a>
+      
+        <i class="fa-brands fa-youtube fa-3x"></i>
+      </a>
+      
+        <i class="fa-brands fa-twitch fa-3x"></i>
+      </a>
+      
+    </div>
+
+
+
    
+
+    <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasLabel">Bonjour !</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          Bienvenue sur notre site qui vous donne l'actualité d'overtwatch.
+        </div>
+
+    
+
+    
+
+  </div>
+  <!-- lien vers les scripts de Bootstrap -->
+    <script src="script/carousel.js"></script>
+  <script src="https://kit.fontawesome.com/1c6a5947b3.js" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
